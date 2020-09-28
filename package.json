@@ -1,0 +1,25 @@
+{
+ "name": "gurps",
+ "version": "1.0.0",
+ "description": "get the repos associated with an org and their branches",
+ "main": "index.js",
+ "scripts": {
+  "test": "echo \"Error: no test specified\" && exit 1"
+ },
+ "keywords": [
+  "cli",
+  "github",
+  "repos",
+  "branches"
+ ],
+ "author": "Kyle Jones (https://github.com/excilsploft/)",
+ "license": "MIT",
+ "dependencies": {
+  "@actions/github": "",
+  "columnify": "",
+  "yargs": ">=13.2"
+ },
+ "bin": {
+  "gurps": "./bin/gurps"
+ }
+}

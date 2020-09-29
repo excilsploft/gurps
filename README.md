@@ -17,8 +17,8 @@ gurps needs a couple of environment variables set up
 	GITHUB_AUTH_TOKEN=<your github auth token>
 	GITHUB_OWNER=<your github user name or Org>
   ```
-1. open your `.bashrc` in your favourite editor.ie (`vim ~/.bashrc`)
-2. add the following lines with your values:
+1. open your `.bashrc` in your favourite editor.ie (`vim /Users/<your_username>/.bashrc`)
+2. add the following lines with your values and save the file:
    ```
 	export GITHUB_AUTH_TOKEN=<your github auth token>
 	export GITHUB_OWNER=<your github user name or Org>
@@ -64,4 +64,9 @@ Examples:
 4. run `make`
 3. run `docker run --rm --env-file ./.env gurps:latest gurps -b <your branch string>`
 
+Alternatively,
+1. set up the env variables in your .bashrc as noted in the [above](#usage)
+2. clone the repo and change the directory to it
+3. run `make`
+4. run `docker run --rm --env GITHUB_AUTH_TOKEN --env GITHUB_OWNER gurps:latest gurps -b <your branch string>`
 

@@ -2,7 +2,16 @@
 
 A Node.js commandline tool for retrieving repos for a given org or owner
 
+## Install
+
+1. `git clone git@github.com:excilsploft/gurps.git`
+2. `cd gurps`
+3. `npm install -g gurps`
+4. `gurps --help`
+5. Set up GITHUB_AUTH_TOKEN and GITHUB_OWNER environment variables
+
 ## Usage
+
 
 gurps needs a couple of environment variables set up
   ```

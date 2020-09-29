@@ -19,7 +19,5 @@
   "columnify": "",
   "yargs": ">=13.2"
  },
- "bin": {
-  "gurps": "./bin/gurps"
- }
+ "bin": "./bin/gurps"
 }

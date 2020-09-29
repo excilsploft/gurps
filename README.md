@@ -8,16 +8,25 @@ A Node.js commandline tool for retrieving repos for a given org or owner
 2. `cd gurps`
 3. `npm install -g gurps`
 4. `gurps --help`
-5. Set up GITHUB_AUTH_TOKEN and GITHUB_OWNER environment variables
+5. Set up GITHUB_AUTH_TOKEN and GITHUB_OWNER [environment variables](#usage)
 
-## Usage
-
+## Usage<a name="usage"></a>
 
 gurps needs a couple of environment variables set up
   ```
 	GITHUB_AUTH_TOKEN=<your github auth token>
 	GITHUB_OWNER=<your github user name or Org>
   ```
+1. open your `.bashrc` in your favourite editor.ie (`vim ~/.bashrc`)
+2. add the following lines with your values:
+   ```
+	export GITHUB_AUTH_TOKEN=<your github auth token>
+	export GITHUB_OWNER=<your github user name or Org>
+
+   ```
+3. type `source ~/.bashrc` in your favourite terminal emulator
+4. run `gurps` or with the commandline flags a
+
 
 altnernately, they can be provided on the command line (not recommended)
 

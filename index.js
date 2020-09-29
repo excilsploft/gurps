@@ -73,8 +73,8 @@ async function byRepo(authToken, owner, repoName) {
 					repo: repo.name,
 					branch: branch,
 				}
+				data.push(foundData);
 			}
-			data.push(foundData);
 		}
 	}
 
